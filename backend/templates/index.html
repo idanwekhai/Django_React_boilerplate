@@ -1,0 +1,15 @@
+{% load render_bundle from webpack_loader %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>App Title</title>
+</head>
+<body>
+ <div id="root">
+ </div>
+ <!-- load the script bundle here -->
+  {% render_bundle "main" %}
+</body>
+</html>
