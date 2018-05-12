@@ -1,4 +1,4 @@
-#React_Django_Boilerplate Code
+# React_Django_Boilerplate Code
 
 Boiler plate code to use React and Django together without much configuration.
 
@@ -35,7 +35,7 @@ $ yarn start
 $ python manage.py runserver
 ```
 
-#Running in production
+# Running in production
 
 First build the static files.
 
