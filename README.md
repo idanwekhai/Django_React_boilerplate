@@ -46,7 +46,7 @@ $ yarn build
 Run the server with production settings.
 
 ```bash
-$ python manage.py runserver --settings=production_setttings
+$ python manage.py runserver --settings=production_settings
 ```
 
 # Note
