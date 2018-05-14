@@ -1,0 +1,17 @@
+version: "2"
+services:
+  frontend:
+    build: ./frontend
+    image: frontend:latest
+    volumes:
+      - ./frontend:/frontend
+    ports:
+      - "3000:3000"
+  backend:
+    build: ./backend
+    image: backend:latest
+    volumes:
+      - ./backend:/code
+    ports: 
+      - "5000:5000"
+    command: python3 manage.py runserver 0.0.0.0:5000

@@ -8,31 +8,19 @@ After cloning the repo.
 
 ```bash
 $ cd react_django_boilerplate
+$ docker-compose build
 ```
 
-##### For the backend
-
-```bash
-$ cd backend
-$ pip install -r requirements.txt
-```
-
-##### For the frontend
-
-```bash
-$ cd frontend
-$ yarn install
-$ yarn add webpack-bundle-tracker --dev
-```
 
 # Running the App
-
 ```bash
-$ yarn start
+$ docker-compose up
 ```
 
+Or if you've yet to build the docker images:
+
 ```bash
-$ python manage.py runserver
+$ docker-compose up --build
 ```
 
 # Running in production
