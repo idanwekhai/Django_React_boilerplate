@@ -3,3 +3,5 @@ backend/staticfiles
 backend/staticfiles/
 __pycache__
 *.pyc
+*.sqlite3
+*.db
