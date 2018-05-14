@@ -1,1 +1,2 @@
 django-webpack-loader
+Django==2.0
